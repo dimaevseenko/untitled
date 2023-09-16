@@ -4,5 +4,4 @@ public class Main {
         m.drive();
         m.drive(() -> System.out.println("dick"));
     }
-
 }
