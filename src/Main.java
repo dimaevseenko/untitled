@@ -18,4 +18,8 @@ public class Main implements CarListener {
     public void onCarStopped() {
         System.out.println("stopped");
     }
+
+    public String d(){
+        return "1";
+    }
 }
