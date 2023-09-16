@@ -30,4 +30,8 @@ public class Main implements CarListener {
     public double sin(double a){
         return Math.sin(a);
     }
+
+    public double avg(double a, double b){
+        return (a+b)/2;
+    }
 }
