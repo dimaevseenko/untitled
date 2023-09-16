@@ -26,4 +26,8 @@ public class Main implements CarListener {
     public void c(){
         Math.sin(1);
     }
+
+    public double sin(double a){
+        return Math.sin(a);
+    }
 }
