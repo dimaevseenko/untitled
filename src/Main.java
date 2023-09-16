@@ -34,5 +34,4 @@ public class Main implements CarListener {
     public double cos(double a){
         return Math.cos(a);
     }
-
 }
