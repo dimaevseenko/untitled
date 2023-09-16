@@ -22,4 +22,8 @@ public class Main implements CarListener {
     public String d(){
         return "1";
     }
+
+    public void c(){
+        Math.sin(1);
+    }
 }
