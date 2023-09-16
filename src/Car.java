@@ -6,6 +6,7 @@ public class Car implements CarListener {
 
     public void drive(CarListener listener){
         listener.onCarDrived();
+        listener.onCarStopped();
     }
     public void drive(){
         System.out.println(model+" is driving!");
@@ -14,5 +15,9 @@ public class Car implements CarListener {
     @Override
     public void onCarDrived() {
         System.out.println("sss");
+    }
+
+    @Override
+    public void onCarStopped() {
     }
 }

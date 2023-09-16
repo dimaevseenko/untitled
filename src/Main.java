@@ -13,4 +13,9 @@ public class Main implements CarListener {
     public void onCarDrived(){
         System.out.println("sdsd");
     }
+
+    @Override
+    public void onCarStopped() {
+        System.out.println("stopped");
+    }
 }
